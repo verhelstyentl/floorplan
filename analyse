@@ -1,0 +1,36 @@
+user can make a/multiple grid(s)
+can read/write/be owner of a grid
+grid can be public or private
+
+
+user
+-----
+id
+name
+email
+  -> grid
+  -> grid relation
+  
+grid
+-----
+id
+status
+cols
+rows
+name
+descr
+user create
+date create
+user update
+date update
+  -> "block"
+  
+block
+------
+pos col
+pos row
+type 
+status
+comment
+user update
+date update
